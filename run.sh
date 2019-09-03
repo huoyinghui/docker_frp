@@ -1,1 +1,1 @@
-docker run -d --name frp-server -v ./conf:/conf --restart=always cloverzrg/frps-docker
+docker run -d --name frp-server -v `pwd`/conf:/conf --restart=always cloverzrg/frps-docker
